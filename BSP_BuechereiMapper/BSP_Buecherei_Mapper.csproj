@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B01FE0B1-EA45-4559-AF37-07B1CFBC8FB7}</ProjectGuid>
+    <ProjectGuid>{09130B11-1B8A-4C1A-AF08-C78AEA903612}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BSP_Bücherei_Entities</RootNamespace>
-    <AssemblyName>BSP_Bücherei_Entities</AssemblyName>
+    <RootNamespace>BSP_BuechereiMapper</RootNamespace>
+    <AssemblyName>BSP_BuechereiMapper</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,11 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin.cs" />
-    <Compile Include="Benutzer.cs" />
-    <Compile Include="Buch.cs" />
-    <Compile Include="Buecherei.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BinaryMapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Interfaces\BSP_Buecherei_Interfaces.csproj">

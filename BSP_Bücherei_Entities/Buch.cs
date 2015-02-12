@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BSP_Bücherei_Entities
 {
-    class Buch
+    [Serializable]
+    public class Buch
     {
         public string Title { get; set; }
         public bool Ausgeliehen { get; set; }

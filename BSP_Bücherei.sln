@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSP_Bücherei", "BSP_Büche
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSP_Bücherei_Core", "BSP_Bücherei_Entities\BSP_Bücherei_Core.csproj", "{B01FE0B1-EA45-4559-AF37-07B1CFBC8FB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSP_Buecherei_Mapper", "BSP_BuechereiMapper\BSP_Buecherei_Mapper.csproj", "{09130B11-1B8A-4C1A-AF08-C78AEA903612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSP_Buecherei_Interfaces", "Interfaces\BSP_Buecherei_Interfaces.csproj", "{86DBF28E-BBDB-487F-BF3E-BC651B010331}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B01FE0B1-EA45-4559-AF37-07B1CFBC8FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B01FE0B1-EA45-4559-AF37-07B1CFBC8FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B01FE0B1-EA45-4559-AF37-07B1CFBC8FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09130B11-1B8A-4C1A-AF08-C78AEA903612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09130B11-1B8A-4C1A-AF08-C78AEA903612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09130B11-1B8A-4C1A-AF08-C78AEA903612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09130B11-1B8A-4C1A-AF08-C78AEA903612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86DBF28E-BBDB-487F-BF3E-BC651B010331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DBF28E-BBDB-487F-BF3E-BC651B010331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DBF28E-BBDB-487F-BF3E-BC651B010331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DBF28E-BBDB-487F-BF3E-BC651B010331}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

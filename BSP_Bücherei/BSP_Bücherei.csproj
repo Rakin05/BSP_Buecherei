@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BenutzerErstellenDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BenutzerErstellenDialog.Designer.cs">
+      <DependentUpon>BenutzerErstellenDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -52,6 +58,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BenutzerErstellenDialog.resx">
+      <DependentUpon>BenutzerErstellenDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -73,6 +85,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BSP_BuechereiMapper\BSP_Buecherei_Mapper.csproj">
+      <Project>{09130b11-1b8a-4c1a-af08-c78aea903612}</Project>
+      <Name>BSP_Buecherei_Mapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BSP_Bücherei_Entities\BSP_Bücherei_Core.csproj">
+      <Project>{b01fe0b1-ea45-4559-af37-07b1cfbc8fb7}</Project>
+      <Name>BSP_Bücherei_Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interfaces\BSP_Buecherei_Interfaces.csproj">
+      <Project>{86dbf28e-bbdb-487f-bf3e-bc651b010331}</Project>
+      <Name>BSP_Buecherei_Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

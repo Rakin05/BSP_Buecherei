@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BSP_Bücherei_Entities
 {
-    class Admin
+    [Serializable]
+    public class Admin : Benutzer
     {
+
     }
 }
